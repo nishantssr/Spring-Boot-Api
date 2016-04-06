@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-
 @Entity
 public class Greeting {
 
@@ -15,7 +14,6 @@ public class Greeting {
     private String text;
 
     public Greeting() {
-
     }
 
     public Long getId() {
